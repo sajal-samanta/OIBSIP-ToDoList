@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>To-Do List Web App</h1>
+
+  <div class="form-container">
+    <input type="text" id="task-title" placeholder="Title" required>
+    <textarea id="task-desc" placeholder="Description" required></textarea>
+    <button id="add-task-btn">Add Task</button>
+  </div>
+
+  <div class="tasks-section">
+    <h2>Pending Tasks</h2>
+    <ul id="pending-tasks"></ul>
+  </div>
+
+  <div class="tasks-section">
+    <h2>Completed Tasks</h2>
+    <ul id="completed-tasks"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

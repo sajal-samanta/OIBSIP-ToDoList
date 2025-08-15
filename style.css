@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #163457, #a1b9e7);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.tasks-section {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  background: rgba(255, 255, 255, 0.15);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* For small screens */
+}
+
+.task div {
+  flex: 1 1 auto;
+  min-width: 200px;
+}
+
+.task-actions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.task-actions button {
+  margin: 2px;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.complete-btn {
+  background: #007bff;
+  color: white;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: black;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .tasks-section {
+    padding: 0;
+  }
+
+  .task {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-actions {
+    justify-content: flex-start;
+  }
+
+  button, input, textarea {
+    font-size: 0.95rem;
+  }
+}
