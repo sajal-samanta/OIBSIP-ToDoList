@@ -21,3 +21,5 @@ This app allows you to **add, delete, and mark tasks as completed**, making task
 - **HTML5** – Structure
 - **CSS3** – Styling & Responsive Layout
 - **JavaScript (ES6)** – Functionality & Local Storage Handling
+
+live link: https://oibsip-to-do-list-tau.vercel.app/
