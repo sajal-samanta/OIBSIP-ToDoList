@@ -8,6 +8,7 @@ This app allows you to **add, delete, and mark tasks as completed**, making task
 
 ---
 
+
 ## 🚀 Features
 - ➕ **Add tasks** easily.
 - ✅ **Mark tasks as completed** with a single click.
