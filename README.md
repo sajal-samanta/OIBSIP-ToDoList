@@ -2,7 +2,6 @@
 
 
 
-
 A simple and user-friendly **To-Do List** web application built using **HTML, CSS, and JavaScript**.  
 This app allows you to **add, delete, and mark tasks as completed**, making task management simple and efficient.
 
@@ -22,5 +21,6 @@ This app allows you to **add, delete, and mark tasks as completed**, making task
 - **HTML5** – Structure
 - **CSS3** – Styling & Responsive Layout
 - **JavaScript (ES6)** – Functionality & Local Storage Handling
+
 
 live link: https://oibsip-to-do-list-tau.vercel.app/
